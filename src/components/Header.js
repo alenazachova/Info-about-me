@@ -2,7 +2,7 @@ import logo from "../assets/me.jpg";
 
 import React from "react";
 
-function Intro() {
+export const Header = () => {
   return (
     <header>
       <img src={logo} alt="logo" />
@@ -13,5 +13,4 @@ function Intro() {
       </p>
     </header>
   );
-}
-export default Intro;
+};

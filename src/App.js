@@ -1,18 +1,16 @@
 import "./App.css";
-import Buttons from "./components/Buttons";
-import Intro from "./components/Intro";
-import Texts from "./components/Texts";
-import Socials from "./components/Socials";
+import { Footer } from "./layout/Footer";
+import { Buttons } from "./components/Buttons";
+import { Header } from "./components/Header";
+import { Texts } from "./components/Texts";
 
 function App() {
   return (
-    <div className="main-container">
-      <div className="container">
-        <Intro />
-        <Buttons />
-        <Texts />
-        <Socials />
-      </div>
+    <div className="container">
+      <Header />
+      <Buttons />
+      <Texts />
+      <Footer />
     </div>
   );
 }
